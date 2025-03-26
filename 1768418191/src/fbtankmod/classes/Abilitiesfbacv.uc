@@ -834,7 +834,7 @@ static function X2AbilityTemplate RocketLauncherAbilityacvplayer2()
 	ConeMultiTarget = new class'X2AbilityMultiTarget_Cone';
 	ConeMultiTarget.bUseWeaponRadius = true;
 	ConeMultiTarget.ConeEndDiameter = class'X2Ability_HeavyWeapons'.default.SHREDDER_GUN_TILE_WIDTH * class'XComWorldData'.const.WORLD_StepSize;
-	ConeMultiTarget.ConeLength = 10 * class'XComWorldData'.const.WORLD_StepSize;
+	ConeMultiTarget.ConeLength = 8 * class'XComWorldData'.const.WORLD_StepSize;
 	ConeMultiTarget.bExcludeSelfAsTargetIfWithinRadius = true;
 	ConeMultiTarget.bLockShooterZ = true;
 	Template.AbilityMultiTargetStyle = ConeMultiTarget;
@@ -939,7 +939,7 @@ static function X2AbilityTemplate RocketLauncherAbilityacvplayer2a()
 	ConeMultiTarget = new class'X2AbilityMultiTarget_Cone';
 	ConeMultiTarget.bUseWeaponRadius = true;
 	ConeMultiTarget.ConeEndDiameter = class'X2Ability_HeavyWeapons'.default.SHREDDER_GUN_TILE_WIDTH * class'XComWorldData'.const.WORLD_StepSize;
-	ConeMultiTarget.ConeLength = 10 * class'XComWorldData'.const.WORLD_StepSize;
+	ConeMultiTarget.ConeLength = 8 * class'XComWorldData'.const.WORLD_StepSize;
 	ConeMultiTarget.bExcludeSelfAsTargetIfWithinRadius = true;
 	ConeMultiTarget.bLockShooterZ = true;
 	Template.AbilityMultiTargetStyle = ConeMultiTarget;
@@ -955,7 +955,7 @@ static function X2AbilityTemplate RocketLauncherAbilityacvplayer2a()
 
 	WeaponDamageEffect = new class'X2Effect_ApplyWeaponDamage';
 	WeaponDamageEffect.bExplosiveDamage = true;
-	WeaponDamageEffect.bIgnoreArmor = true;
+	WeaponDamageEffect.bIgnoreArmor = false;
 	WeaponDamageEffect.EffectDamageValue = default.tankfiredmg1;
 	WeaponDamageEffect.EffectDamageValue.DamageType = 'fire';
 	Template.AddMultiTargetEffect(WeaponDamageEffect);
@@ -1047,7 +1047,7 @@ static function X2AbilityTemplate RocketLauncherAbilityacvplayer2b()
 	ConeMultiTarget = new class'X2AbilityMultiTarget_Cone';
 	ConeMultiTarget.bUseWeaponRadius = true;
 	ConeMultiTarget.ConeEndDiameter = class'X2Ability_HeavyWeapons'.default.SHREDDER_GUN_TILE_WIDTH * class'XComWorldData'.const.WORLD_StepSize;
-	ConeMultiTarget.ConeLength = 10 * class'XComWorldData'.const.WORLD_StepSize;
+	ConeMultiTarget.ConeLength = 8 * class'XComWorldData'.const.WORLD_StepSize;
 	ConeMultiTarget.bExcludeSelfAsTargetIfWithinRadius = true;
 	ConeMultiTarget.bLockShooterZ = true;
 	Template.AbilityMultiTargetStyle = ConeMultiTarget;
@@ -1063,7 +1063,7 @@ static function X2AbilityTemplate RocketLauncherAbilityacvplayer2b()
 
 	WeaponDamageEffect = new class'X2Effect_ApplyWeaponDamage';
 	WeaponDamageEffect.bExplosiveDamage = true;
-	WeaponDamageEffect.bIgnoreArmor = true;
+	WeaponDamageEffect.bIgnoreArmor = false;
 	WeaponDamageEffect.EffectDamageValue = default.tankfiredmg2;
 	WeaponDamageEffect.EffectDamageValue.DamageType = 'fire';
 	Template.AddMultiTargetEffect(WeaponDamageEffect);
@@ -1155,7 +1155,7 @@ static function X2AbilityTemplate RocketLauncherAbilityacvplayer2c()
 	ConeMultiTarget = new class'X2AbilityMultiTarget_Cone';
 	ConeMultiTarget.bUseWeaponRadius = true;
 	ConeMultiTarget.ConeEndDiameter = class'X2Ability_HeavyWeapons'.default.SHREDDER_GUN_TILE_WIDTH * class'XComWorldData'.const.WORLD_StepSize;
-	ConeMultiTarget.ConeLength = 10 * class'XComWorldData'.const.WORLD_StepSize;
+	ConeMultiTarget.ConeLength = 8 * class'XComWorldData'.const.WORLD_StepSize;
 	ConeMultiTarget.bExcludeSelfAsTargetIfWithinRadius = true;
 	ConeMultiTarget.bLockShooterZ = true;
 	Template.AbilityMultiTargetStyle = ConeMultiTarget;
@@ -1171,7 +1171,7 @@ static function X2AbilityTemplate RocketLauncherAbilityacvplayer2c()
 
 	WeaponDamageEffect = new class'X2Effect_ApplyWeaponDamage';
 	WeaponDamageEffect.bExplosiveDamage = true;
-	WeaponDamageEffect.bIgnoreArmor = true;
+	WeaponDamageEffect.bIgnoreArmor = false;
 	WeaponDamageEffect.EffectDamageValue = default.tankfiredmg3;
 	WeaponDamageEffect.EffectDamageValue.DamageType = 'fire';
 	Template.AddMultiTargetEffect(WeaponDamageEffect);
@@ -1263,7 +1263,7 @@ static function X2AbilityTemplate RocketLauncherAbilityacvplayer2d()
 	ConeMultiTarget = new class'X2AbilityMultiTarget_Cone';
 	ConeMultiTarget.bUseWeaponRadius = true;
 	ConeMultiTarget.ConeEndDiameter = class'X2Ability_HeavyWeapons'.default.SHREDDER_GUN_TILE_WIDTH * class'XComWorldData'.const.WORLD_StepSize;
-	ConeMultiTarget.ConeLength = 10 * class'XComWorldData'.const.WORLD_StepSize;
+	ConeMultiTarget.ConeLength = 8 * class'XComWorldData'.const.WORLD_StepSize;
 	ConeMultiTarget.bExcludeSelfAsTargetIfWithinRadius = true;
 	ConeMultiTarget.bLockShooterZ = true;
 	Template.AbilityMultiTargetStyle = ConeMultiTarget;
@@ -1279,7 +1279,7 @@ static function X2AbilityTemplate RocketLauncherAbilityacvplayer2d()
 
 	WeaponDamageEffect = new class'X2Effect_ApplyWeaponDamage';
 	WeaponDamageEffect.bExplosiveDamage = true;
-	WeaponDamageEffect.bIgnoreArmor = true;
+	WeaponDamageEffect.bIgnoreArmor = false;
 	WeaponDamageEffect.EffectDamageValue = default.tankfiredmg4;
 	WeaponDamageEffect.EffectDamageValue.DamageType = 'fire';
 	Template.AddMultiTargetEffect(WeaponDamageEffect);
@@ -1856,6 +1856,7 @@ static function X2AbilityTemplate tankram1()
 
 	PhysicalDamageEffect = new class'X2Effect_ApplyWeaponDamage';
 	PhysicalDamageEffect.EffectDamageValue = class'fbitems'.default.acvdmgram;
+	PhysicalDamageEffect.EnvironmentalDamageAmount = 9999;
 
 	Template.AddmultiTargetEffect(PhysicalDamageEffect);
 	
@@ -5667,7 +5668,7 @@ static function X2AbilityTemplate SaturationFiretank()
 	Template.AbilityCosts.AddItem(default.WeaponActionTurnEnding);
 
 	Cooldown = new class'X2AbilityCooldown';
-	Cooldown.iNumTurns = 3;
+	Cooldown.iNumTurns = 2;
 	Template.AbilityCooldown = Cooldown;
 	 
 	StandardAim = new class'X2AbilityToHitCalc_StandardAim';
@@ -5689,7 +5690,7 @@ static function X2AbilityTemplate SaturationFiretank()
 	WorldDamage = new class'X2Effect_ApplyDirectionalWorldDamage';
 	WorldDamage.bUseWeaponDamageType = true;
 	WorldDamage.bUseWeaponEnvironmentalDamage = false;
-	WorldDamage.EnvironmentalDamageAmount = 30;
+	WorldDamage.EnvironmentalDamageAmount = 20;
 	WorldDamage.bApplyOnHit = true;
 	WorldDamage.bApplyOnMiss = true;
 	WorldDamage.bApplyToWorldOnHit = true;
@@ -5706,9 +5707,8 @@ static function X2AbilityTemplate SaturationFiretank()
 	ConeMultiTarget = new class'X2AbilityMultiTarget_Cone';
 	ConeMultiTarget.bExcludeSelfAsTargetIfWithinRadius = true;
 	ConeMultiTarget.ConeEndDiameter = class'X2Ability_GrenadierAbilitySet'.default.SATURATION_TILE_WIDTH * class'XComWorldData'.const.WORLD_StepSize;
-	ConeMultiTarget.bUseWeaponRangeForLength = true;
-	ConeMultiTarget.fTargetRadius = 99;     //  large number to handle weapon range - targets will get filtered according to cone constraints
-	ConeMultiTarget.bIgnoreBlockingCover = true;
+	ConeMultiTarget.ConeLength = 15 * class'XComWorldData'.const.WORLD_StepSize;
+	ConeMultiTarget.fTargetRadius = 99; //  large number to handle weapon range - targets will get filtered according to cone constraints
 	Template.AbilityMultiTargetStyle = ConeMultiTarget;
 
 	UnitPropertyCondition = new class'X2Condition_UnitProperty';
