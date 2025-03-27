@@ -6578,7 +6578,7 @@ static function X2AbilityTemplate Addtankshield1(name TemplateName = 'tankshield
 	Template.bDisplayInUITacticalText = false;
 	Template.DisplayTargetHitChance = false;
 
-	ShieldedEffect = CreateShieldedEffect(Template.LocFriendlyName, Template.GetMyLongDescription(), 4);
+	ShieldedEffect = CreateShieldedEffect(Template.LocFriendlyName, Template.GetMyLongDescription(), 3);
 	Template.AddShooterEffect(ShieldedEffect);
 
 	Template.BuildNewGameStateFn = TypicalAbility_BuildGameState;
