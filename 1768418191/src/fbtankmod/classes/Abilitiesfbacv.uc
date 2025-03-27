@@ -5775,7 +5775,7 @@ static function X2AbilityTemplate RunAndGunAbilitytank(Name AbilityName)
 	Template.AbilityConfirmSound = "TacticalUI_Activate_Ability_Run_N_Gun";
 
 	Cooldown = new class'X2AbilityCooldown';
-	Cooldown.iNumTurns = 3;
+	Cooldown.iNumTurns = 4;
 	Template.AbilityCooldown = Cooldown;
 
 	ActionPointCost = new class'X2AbilityCost_ActionPoints';
